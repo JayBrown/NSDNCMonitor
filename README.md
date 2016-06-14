@@ -13,7 +13,7 @@ I only added observers for moving on/off console, extended the package with help
 
 ## Installation
 * download [here](https://github.com/JayBrown/NSDNCMonitor/releases)
-* use the prebuilt binary (if it works) or build it yourself with `gcc -Wall nsdncmon.m -o nsdncmon -lobjc -framework Foundation`
+* use the prebuilt OS X 10.11.2 binary—if it works; it's unsigned—or build it yourself with `gcc -Wall nsdncmon.m -o nsdncmon -lobjc -framework Foundation`
 * move `nsdncmon` to `/usr/local/bin`
 * move the two shell scripts to `/usr/local/bin` and `chmod +x` them
 * move the LaunchAgent (.plist) to `~/Library/LaunchAgents` and load it with `launchctl`
