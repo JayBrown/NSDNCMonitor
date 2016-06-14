@@ -18,6 +18,14 @@ I only added observers for moving on/off console, extended the package with help
 * move the two shell scripts to `/usr/local/bin` and `chmod +x` them
 * move the LaunchAgent (.plist) to `~/Library/LaunchAgents` and load it with `launchctl`
 
+## Functionality
+`nsdncmon` currently listens for the following events:
+* start/stop screensaver
+* move on/off console, i.e. suspend/continue CGSession
+* lock/unlock screen
+
+Note: for tasks to run when your computer goes to sleep, you should install and configure the very helpful [SleepWatcher by Bernhard Baehr](http://www.bernhard-baehr.de).
+
 ## General Note
-* The LaunchAgent takes [SleepWatcher](http://www.bernhard-baehr.de) into account; if you don't have SleepWatcher installed/activated, you can set the agent to a default KeepAlive
+* The LaunchAgent takes into account the above-mentioned Sleepwatcher; if you don't have SleepWatcher installed/activated, you can set the agent to a default KeepAlive
 * This whole thing is pointless if you don't extend `nsdncmonwatch.sh` and write some scripts yourself with the tasks you want to have performed
