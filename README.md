@@ -24,7 +24,7 @@ I only added observers for moving on/off console, extended the package with help
 * move on/off console, i.e. suspend/continue CGSession
 * lock/unlock screen
 
-Note: for tasks to run when your computer goes to (or wakes from) sleep, you should install and configure the very helpful [SleepWatcher by Bernhard Baehr](http://www.bernhard-baehr.de).
+Note: for tasks to run when your computer goes to (or wakes from) sleep, you should install and configure the very helpful [SleepWatcher by Bernhard Baehr](http://www.bernhard-baehr.de): `brew install sleepwatcher`
 
 ## General Note
 * The LaunchAgent takes into account the above-mentioned Sleepwatcher; if you don't have SleepWatcher installed/activated, you can set the agent to a default KeepAlive
