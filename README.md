@@ -12,7 +12,8 @@ This was originally published as **ScreenSaverMonitor** in 2013 by Josh Goebel [
 I only added observers for moving on/off console, extended the package with helper scripts and a LaunchAgent. I renamed it **nsdncmon**, because in the end you can tweak the code to include the notifications you want to observe.
 
 ## Installation
-* build with `gcc -Wall nsdncmon.m -o nsdncmon -lobjc -framework Foundation`
+* download [here](https://github.com/JayBrown/NSDNCMonitor/releases)
+* use the prebuilt binary (if it works) or build it yourself with `gcc -Wall nsdncmon.m -o nsdncmon -lobjc -framework Foundation`
 * move `nsdncmon` to `/usr/local/bin`
 * move the two shell scripts to `/usr/local/bin` and `chmod +x` them
 * move the LaunchAgent (.plist) to `~/Library/LaunchAgents` and load it with `launchctl`
