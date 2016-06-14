@@ -5,7 +5,7 @@
 [![nsdncmon-license](http://img.shields.io/badge/license-MIT+-blue.svg)](https://github.com/JayBrown/NSDNCMonitor/blob/master/license.md)
 
 # NSDNCMonitor
-**Monitor your NSDistributedNotificationCenter**
+**Monitor your NSDistributedNotificationCenter and run user scripts on predefined events**
 
 This was originally published as **ScreenSaverMonitor** in 2013 by Josh Goebel [here](http://pastie.org/8013106), based on existing code from a discussion on [stackoverflow](http://stackoverflow.com/questions/16944434/monitoring-screensaver-events-in-osx/16947042).
 
