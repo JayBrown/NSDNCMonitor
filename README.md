@@ -1,4 +1,4 @@
-![nsdncmon-platform-osx](https://img.shields.io/badge/platform-OS%20X-lightgrey.svg)
+![nsdncmon-platform-macos](https://img.shields.io/badge/platform-macOS-lightgrey.svg)
 ![nsdncmon-code-ObjC](https://img.shields.io/badge/code-ObjC-yellow.svg)
 ![nsdncmon-code-shell](https://img.shields.io/badge/code-shell-yellow.svg)
 ![nsdncmon-depend-gcc](https://img.shields.io/badge/dependency-gcc-green.svg)
@@ -13,7 +13,7 @@ I only added observers for moving on/off console, extended the package with help
 
 ## Installation
 * download [here](https://github.com/JayBrown/NSDNCMonitor/releases)
-* use the prebuilt OS X 10.11.2 binary—if it works; it's unsigned—or build it yourself with `gcc -Wall nsdncmon.m -o nsdncmon -lobjc -framework Foundation`
+* use the binary prebuilt under 10.11.2—if it works; it's unsigned—or build it yourself with `gcc -Wall nsdncmon.m -o nsdncmon -lobjc -framework Foundation`
 * move `nsdncmon` to `/usr/local/bin`
 * move the two shell scripts to `/usr/local/bin` and `chmod +x` them
 * move the LaunchAgent (.plist) to `~/Library/LaunchAgents` and load it with `launchctl`
