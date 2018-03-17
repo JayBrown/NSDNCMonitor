@@ -22,6 +22,7 @@ I only added observers for moving on/off console, extended the package with help
 `nsdncmon` currently listens for the following events:
 * start/stop screensaver
 * move on/off console, i.e. suspend/continue CGSession
+* raise/lower shield window (screen sleep/wake)
 * lock/unlock screen
 
 Note: for tasks to run when your computer goes to (or wakes from) sleep, you should install and configure the very helpful [SleepWatcher by Bernhard Baehr](http://www.bernhard-baehr.de): `brew install sleepwatcher`

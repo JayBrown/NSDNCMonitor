@@ -14,7 +14,7 @@
 
 @implementation nsdncmon
 -(id) init {
-  NSDistributedNotificationCenter * center 
+  NSDistributedNotificationCenter * center
     = [NSDistributedNotificationCenter defaultCenter];
 
   [center addObserver: self
@@ -25,6 +25,16 @@
   [center addObserver: self
           selector:    @selector(receive:)
           name:        @"com.apple.screensaver.didstop"
+          object:      nil
+  ];
+  [center addObserver: self
+          selector:    @selector(receive:)
+          name:        @"com.apple.shieldWindowRaised"
+          object:      nil
+  ];
+  [center addObserver: self
+          selector:    @selector(receive:)
+          name:        @"com.apple.shieldWindowLowered"
           object:      nil
   ];
   [center addObserver: self
